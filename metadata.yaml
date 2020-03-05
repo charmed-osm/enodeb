@@ -1,0 +1,7 @@
+name: charm-simple-native
+summary: A simple native charm
+description: |
+    A simple native charm with operator framework
+series:
+- xenial
+- bionic
