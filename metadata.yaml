@@ -1,7 +1,7 @@
-name: charm-simple-native
-summary: A simple native charm
+name: enodeb
+summary: A native charm for Enodeb
 description: |
-    A simple native charm with operator framework
+    A charm to add day-2 primitive to an enodeb and radio simulator VDU
 series:
 - xenial
 - bionic

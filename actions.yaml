@@ -1,9 +1,19 @@
-touch:
-    description: "Touch a file on the VNF."
-    params:
-        filename:
-            description: "The name of the file to touch."
-            type: string
-            default: ""
-    required:
-        - filename
+register:
+  description: "Register to AGW (EPC)."
+  params:
+    mme-addr:
+      description: "MME address."
+      type: string
+      default: ""
+    gtp-bind-addr:
+      description: "GTP bind address"
+      type: string
+      default: ""
+    s1c-bind-addr:
+      description: "S1C bind address."
+      type: string
+      default: ""
+  required:
+    - mme-addr
+    - gtp-bind-addr
+    - s1c-bind-addr
